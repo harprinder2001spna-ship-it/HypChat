@@ -1,0 +1,11 @@
+{
+  "name": "HypChat",
+  "description": "Next-generation mobile-first social network combining short-form discovery video (Hype) with close friendship messaging and unique Friendship Stars.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

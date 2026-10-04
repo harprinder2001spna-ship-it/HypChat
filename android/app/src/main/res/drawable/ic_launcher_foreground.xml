@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Small minimalist heart above chat box -->
+    <path
+        android:fillColor="#c084fc"
+        android:pathData="M54,23.5 C52.5,21.2 49.5,19.8 46.9,20.8 C43.4,21.9 42.3,25.3 43.8,28.5 C45.6,32.4 51.8,36.3 54,37.6 C56.2,36.3 62.4,32.4 64.2,28.5 C65.7,25.3 64.6,21.9 61.1,20.8 C58.5,19.8 55.5,21.2 54,23.5 Z"/>
+
+    <!-- HypChat Sleek Chat Box Container -->
+    <path
+        android:fillColor="#7c3aed"
+        android:strokeColor="#a855f7"
+        android:strokeWidth="1.5"
+        android:pathData="M32,38 C26.48,38 22,42.48 22,48 L22,70 C22,75.52 26.48,80 32,80 L37,80 L34.7,86.8 C34.3,88 35.5,89 36.5,88.2 L46.4,80 L76,80 C81.52,80 86,75.52 86,70 L86,48 C86,42.48 81.52,38 76,38 Z"/>
+
+    <!-- Crisp H Monogram Inside Chat Box -->
+    <path
+        android:strokeColor="#ffffff"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M44,52 L44,66 M64,52 L64,66 M44,59 L64,59"/>
+</vector>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="128" fill="#0f0728"/>
+  <defs>
+    <linearGradient id="purpleGrad" x1="64" y1="96" x2="448" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#8b5cf6"/>
+      <stop offset="50%" stopColor="#7c3aed"/>
+      <stop offset="100%" stopColor="#4c1d95"/>
+    </linearGradient>
+    <linearGradient id="heartGrad" x1="224" y1="32" x2="288" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#e9d5ff"/>
+      <stop offset="100%" stopColor="#a855f7"/>
+    </linearGradient>
+  </defs>
+  <!-- Small minimalist heart above chat box -->
+  <path d="M256 54.4C247.2 41.6 229.6 33.6 214.4 39.2C194.4 45.6 188 64.8 196.8 83.2C207.2 105.6 243.2 128 256 135.2C268.8 128 304.8 105.6 315.2 83.2C324 64.8 317.6 45.6 297.6 39.2C282.4 33.6 264.8 41.6 256 54.4Z" fill="url(#heartGrad)"/>
+  <!-- Distinctive chat box shape -->
+  <path d="M128 144C92.65 144 64 172.65 64 208V352C64 387.35 92.65 416 128 416H160L145.6 459.2C143.2 466.4 150.4 472.8 156.8 468.8L220 416H384C419.35 416 448 387.35 448 352V208C448 172.65 419.35 144 384 144H128Z" fill="url(#purpleGrad)" stroke="#c084fc" stroke-width="12"/>
+  <!-- H monogram -->
+  <path d="M200 224V336M312 224V336M200 280H312" stroke="#ffffff" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
